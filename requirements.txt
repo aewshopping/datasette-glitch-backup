@@ -1,0 +1,13 @@
+# Essentials:
+datasette
+sqlite-utils
+pip
+pysqlite3-binary
+
+# Plugins
+
+datasette-cors
+datasette-block-robots
+
+# More plugins here:
+#   https://datasette.io/plugins
