@@ -12,13 +12,9 @@ What's the point of a database? It means you can find a little bit of informatio
 
 This code will ingest the CSV files specified in the install.sh script, turn them into an sqlite database and serve them up from the browser, as you can see in the preview.
 
-You can either specify local CSV files or remote files. 
-
 The trigger to restart the project is set out on the glitch.json file. Currently it is looking for any changes to the CSV files.
 
-If the files are remote, then Glitch cannot watch for changes so I have a dummy CSV file to which I can make an arbitrary change to trigger the restart and reload of the (possibly updated) CSV files. 
-
-There is probably a way of triggering a restart remotely with some sort of webhook thing, but I can't figure this out right now. It would be better if I could! 
+I would like to be able to call remote files from install.sh (eg on github) but at the moment this doesn't seem to work. I would also like a way of triggering a restart remotely with some sort of webhook thing, but I can't figure this out right now. It would be better if I could! 
 
 ## Why did I build this particular database?
 

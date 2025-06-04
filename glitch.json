@@ -5,6 +5,7 @@
     "install": {
       "include": [
         "\\.csv$",
+        "\\.tsv$",
         "^requirements.txt$",
         "^install.sh$"
       ]
